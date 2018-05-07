@@ -4,4 +4,4 @@ gem 'sinatra-flash'
 gem 'sinatra-activerecord'
 gem 'sinatra-contrib'
 gem "rake"
-gem "sqlite3"
+# gem "sqlite3"
