@@ -505,17 +505,17 @@ nav {
 
     &-1 {
       background-image: linear-gradient(to right bottom, rgba(173, 228, 119, .4), rgba(119, 228, 119, 1)),
-      url('images/nat-5.jpg');
+      url('/images/nat-5.jpg');
     }
 
     &-2 {
       background-image: linear-gradient(to right bottom, rgba($light-red, .4), rgba($red, 1)),
-      url('images/nat-5.jpg');
+      url('/images/nat-5.jpg');
     }
 
     &-3 {
       background-image: linear-gradient(to right bottom, rgba($yellow, .4), rgba($dark-yellow, 1)),
-      url('images/nat-5.jpg');
+      url('/images/nat-5.jpg');
     }
   }
 
