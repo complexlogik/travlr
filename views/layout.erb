@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="scss/iconfont.css">
+        <link rel="stylesheet" href="scss/main.css">
+        <link rel="shortcut icon" type="image/png" href="images/Planefav.png">
+
+        <title>Travlr</title>
+    </head>
+
+    <body>
+        <header class='header'>
+            <div class='logo-box'>
+                <a href='/'>
+                    <img src='images/Plane.png' class='logo'>
+                </a>
+            </div>
+            <div class='text-box'>
+                <h1 class='heading-primary'>
+                    <span class='heading-primary-main'>Travlr</span>
+                    <span class='heading-primary-sub'>It's the experience</span>
+                </h1>
+                <a href='#sign-up' class='btn btn-white btn-animated'>Sign Up</a>
+            </div>
+
+            <!-- if not singed in show this -->
+            <nav class="topnav">
+                <a href="#sign-up">Sign Up</a>
+                <a href="#sign-in">Sign In</a>
+                <a href="/" class='active'>Home</a>
+            </nav>
+
+            <!-- if signed in show this -->
+            <!-- <nav class="topnav">
+            <a href="/">Sign Out</a>
+            <a href="/">Post</a>
+            <a href="/">Home</a>
+        </nav> -->
+        </header>
+        <%= yield %>
+    </body>
+
+</html>
